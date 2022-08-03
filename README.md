@@ -1,3 +1,3 @@
-# -f---Divergence
+# (f, Γ)-Divergence
 
 Write smth
