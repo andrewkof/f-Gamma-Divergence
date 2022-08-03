@@ -9,5 +9,5 @@
 
 
 ## Gaussian
-![Alt-txt](gif/dirac/case_1.gif)
+![Alt-txt](gif/Gaussian.gif)
 
