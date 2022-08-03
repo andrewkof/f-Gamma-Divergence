@@ -6,4 +6,4 @@ Dirac_case1.mov
 
 Case 1                                  | Case 2          
 :--------------------------------------:|:----------------------------------------:
-![Alt-txt](gifs/dirac/Dirac_case1.mov) |![Alt-txt]()|
+![Alt-txt](gif/dirac/Dirac_case_1.mov) |![Alt-txt]()|
