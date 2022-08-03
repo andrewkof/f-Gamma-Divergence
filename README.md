@@ -2,11 +2,12 @@
 
 # Mass Redistribution/Transfer Demo
 ## Dirac Masses
-Dirac_case1.mov
 
- (β, γ) = (0, 1)               |  (β, γ) = (1, 0)             
+ Case 1                       |  Case 2            
 -----------------------------:|:----------------------------
-![Alt-txt](gif/dirac/Dirac_case_1.gif)|![Alt-txt](gif/dirac/Dirac_case_2.gif)
+![Alt-txt](gif/dirac/case_1.gif)|![Alt-txt](gif/dirac/case_2.gif)
 
 
-<img src="gif/dirac/Dirac_case_1.gif" width="250" height="250"/>
+## Gaussian
+![Alt-txt](gif/dirac/case_1.gif)
+
