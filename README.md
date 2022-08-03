@@ -12,4 +12,3 @@
 <img src="gif/Gaussian.gif" width="250" height="250"/>
 
 ![Alt-txt](gif/Gaussian.gif)
-
