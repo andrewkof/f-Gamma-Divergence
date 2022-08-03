@@ -9,6 +9,6 @@
 
 
 ## Gaussian
-<img src="gif/Gaussian.gif" width="250" height="250"/>
+<img src="gif/Gaussian.gif" width="400" height="300"/>
 
 ![Alt-txt](gif/Gaussian.gif)
