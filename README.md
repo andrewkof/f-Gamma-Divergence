@@ -1,8 +1,4 @@
 # (f, Γ)-Divergence
-```math
-SE = \frac{\sigma}{\sqrt{n}}
-```
-$`\sqrt{2}`$
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
-Write smth
+When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
