@@ -11,4 +11,5 @@
 ## Gaussian
 <img src="gif/Gaussian.gif" width="400" height="300"/>
 
-![Alt-txt](gif/Gaussian.gif)
+## Uniform
+<img src="gif/Uniform.gif" width="400" height="300"/>
