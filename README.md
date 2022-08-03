@@ -9,6 +9,4 @@ Dirac_case1.mov
 ![Alt-txt](gif/dirac/Dirac_case_1.gif)|![Alt-txt](gif/dirac/Dirac_case_2.gif)
 
 
- Case 1                               |  Case 2
-:------------------------------------:|:-----------:
-![Alt-txt](gif/dirac/Dirac_case_1.gif)|![Alt-txt](gif/dirac/Dirac_case_2.gif)
+<img src="gif/dirac/Dirac_case_1.gif" width="250" height="250"/>
