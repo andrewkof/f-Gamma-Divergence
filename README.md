@@ -6,7 +6,7 @@ Under Construction
 
 Case 1                        |  Case 2            
 -----------------------------:|:----------------------------
-![Alt-txt](gif/dirac/dirac_case1.gif)|![Alt-txt](gif/dirac/dirac_case1.gif)
+![Alt-txt](gif/dirac/dirac_case1.gif)|![Alt-txt](gif/dirac/dirac_case2.gif)
 
 
 ## Gaussian
