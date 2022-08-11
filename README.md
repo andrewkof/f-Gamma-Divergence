@@ -5,7 +5,7 @@
 
 Case 1                        |  Case 2            
 -----------------------------:|:----------------------------
-![Alt-txt](gif/dirac/case_1.gif)|![Alt-txt](gif/dirac/case_2.gif)
+![Alt-txt](gif/dirac/uniform.gif)|![Alt-txt](gif/dirac/case_2.gif)
 
 
 ## Gaussian
