@@ -14,7 +14,7 @@ Under Construction
 <img src="gaussian_cases_formula.png" width="600"/>
 
 
-|P ~ N(1, 0.5),  Q ~ N(3, 0.5)               | P ~ N(1, 0.5),  Q ~ N(3, 1)                | P ~ N(1, 1),  Q ~ N(3, 0.5)                |
+|1) P ~ N(1, 0.5),  Q ~ N(3, 0.5)            |2) P ~ N(1, 0.5),  Q ~ N(3, 1)              |3) P ~ N(1, 1),  Q ~ N(3, 0.5)                |
 |:------------------------------------------:|:------------------------------------------:|:------------------------------------------:|
 |![Alt-txt](gif/gaussian/Gaussian_case_1.gif)|![Alt-txt](gif/gaussian/Gaussian_case_2.gif)|![Alt-txt](gif/gaussian/Gaussian_case_3.gif)|
 
