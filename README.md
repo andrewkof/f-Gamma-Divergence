@@ -1,7 +1,7 @@
 Under Construction
 # (ƒ , $\Gamma$)-Divergence
 
-# Mass Redistribution/Transfer Demo
+# Mass Redistribution/Transport
 ## Dirac Masses
 
 Case 1                        |  Case 2            
