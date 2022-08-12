@@ -21,7 +21,7 @@ Under Construction
 
 
 ## Uniform
-<img src="gaussian_cases_formula.png" width="600"/>
+<img src="uniform.png" width="600"/>
 
 ![Alt-txt](gif/Uniform.gif)
 
