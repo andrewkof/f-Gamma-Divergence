@@ -1,5 +1,4 @@
-Under Construction.
-
+Under Construction
 # (ƒ , $\Gamma$)-Divergence
 
 # Mass Redistribution/Transport
