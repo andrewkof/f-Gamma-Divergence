@@ -36,7 +36,7 @@ Under Construction
 }
 ```
 
-# References
+
 ```
 @inproceedings{Birrell2022,
   author    = {"Jeremiah Birrell, Paul Dupuis, Markos A. Katsoulakis, Yannis Pantazis, Luc Rey-Bellet"},
