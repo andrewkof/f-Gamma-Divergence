@@ -23,5 +23,15 @@ Under Construction
 ## Uniform
 <img src="uniform.png" width="600"/>
 
-![Alt-txt](gif/Uniform.gif)
+![Alt-txt](gif/uniform.gif)
 
+# References
+```
+@inproceedings{Birrell2022,
+  author    = {"Jeremiah Birrell, Paul Dupuis, Markos A. Katsoulakis, Yannis Pantazis, Luc Rey-Bellet"},
+  title     = {"(f, Γ)-DIVERGENCES: INTERPOLATING BETWEEN, f -DIVERGENCES AND INTEGRAL PROBABILITY METRICS"},
+  journal   = {arXiv preprint arXiv:2011.05953},
+  year      = {2022},
+  publisher = {"Journal of Machine Learning Research"}
+}
+```
