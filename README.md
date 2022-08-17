@@ -27,6 +27,17 @@ Under Construction
 
 # References
 ```
+@inproceedings{Yixiang Mao2020,
+  author    = {"Jeremiah Birrell, Paul Dupuis, Markos A. Katsoulakis, Yannis Pantazis, Luc Rey-Bellet"},
+  title     = {"Formulation and properties of a divergence used to compare probability measures without absolute continuity and its application to uncertainty quantification"},
+  journal   = {arXiv:2011.08441},
+  year      = {2020},
+  publisher = {"-"}
+}
+```
+
+# References
+```
 @inproceedings{Birrell2022,
   author    = {"Jeremiah Birrell, Paul Dupuis, Markos A. Katsoulakis, Yannis Pantazis, Luc Rey-Bellet"},
   title     = {"(f, Γ)-DIVERGENCES: INTERPOLATING BETWEEN, f -DIVERGENCES AND INTEGRAL PROBABILITY METRICS"},
