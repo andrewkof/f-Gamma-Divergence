@@ -1,5 +1,6 @@
 Under Construction
 # (ƒ , $\Gamma$)-Divergence
+Demostration examples from [Dupuis and Mao's](https://arxiv.org/abs/2006.06625) paper.
 
 # Mass Redistribution/Transport
 ## Dirac Masses
