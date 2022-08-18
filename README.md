@@ -26,8 +26,8 @@ Under Construction
 
 # References
 ```
-@inproceedings{Mao2020,
-  author    = {"Yixiang Mao"},
+@inproceedings{Dupuis2020,
+  author    = {"Paul Dupuis, Yixiang Mao"},
   title     = {"Formulation and properties of a divergence used to compare probability measures without absolute continuity and its application to uncertainty quantification"},
   journal   = {arXiv:2011.08441},
   year      = {2020},
