@@ -1,7 +1,7 @@
 Under Construction
 
 # (ƒ , $\Gamma$)-Divergence
-Visualized examples from [Dupuis and Mao's](https://arxiv.org/abs/2006.06625) and [Pantazis](https://arxiv.org/pdf/2011.05953.pdf) paper.
+Visualized examples from [Dupuis and Mao's](https://arxiv.org/abs/2006.06625) and [Pantazis](https://arxiv.org/pdf/2011.05953.pdf) papers.
 
 * Dirac Masses: Example, 3.1, in [page 13](https://arxiv.org/pdf/2011.05953.pdf)
 * Unifrom: Coresponds to example 1, section (4.1) in [page 42](https://arxiv.org/pdf/2011.08441.pdf).
