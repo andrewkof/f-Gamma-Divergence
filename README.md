@@ -38,12 +38,12 @@ the result.
 # Run Examples
 To reproduce the achieved results run the file of your choice with the corresponding arguments. The output is a gif visualizing the Mass Redistribution and Transport respectivly to the chosen case (Dirac, Gaussian or Uniform).
 
-## Dirac Case 2
+## Dirac Masses (Case 2)
 | Argument   | Default Value  | Info                                            |Choices                                |
 |:----------:|:--------------:|:-----------------------------------------------:|:--------------------------------------|
 | `--h`      | 0.1            | [float] Position of $\eta^*(x_2)$ from 0.5      | -0.5 < h < 0.5                        |
 
-i.e python3 [`Dirac_case2.py`](Dirac_case2.py) --h=0.2
+`Note`: Dirac case 1 has no arguments.
 
 ## Gaussian
 | Argument   | Default Value  | Info                                            |Choices
@@ -53,7 +53,7 @@ i.e python3 [`Dirac_case2.py`](Dirac_case2.py) --h=0.2
 | `--m2`     | 3.0            | [float] Mean of distribution Q                  | -
 | `--sd2`    | 1.0            | [float] Standard deviation of distribution Q    | -
 
-`Note`: Default values corresponds to Case 2
+`Note`: Default values corresponds to Case 2.
 
 # References
 ```
