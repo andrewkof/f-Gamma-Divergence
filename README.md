@@ -4,6 +4,7 @@ Under Construction
 Visualized examples from [Dupui's and Mao's](https://arxiv.org/pdf/2011.08441.pdf) and [Birrell's](https://arxiv.org/pdf/2011.05953.pdf) papers.
 
 * Dirac Masses: Example 3.1, in [page 13](https://arxiv.org/pdf/2011.05953.pdf)
+* Gaussian: [Theorem 6.8](https://arxiv.org/pdf/2011.08441.pdf), in page 114
 * Unifrom: Example 1, section (4.1) in [page 42](https://arxiv.org/pdf/2011.08441.pdf).
 
 
