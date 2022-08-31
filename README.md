@@ -1,7 +1,7 @@
 Under Construction
 
 # (ƒ , $\Gamma$)-Divergence
-Visualized examples from [Dupuis and Mao's](https://arxiv.org/abs/2006.06625) and [Pantazis](https://arxiv.org/pdf/2011.05953.pdf) papers.
+Visualized examples from [Dupui's and Mao's](https://arxiv.org/abs/2006.06625) and [Birrell's](https://arxiv.org/pdf/2011.05953.pdf) papers.
 
 * Dirac Masses: Example, 3.1, in [page 13](https://arxiv.org/pdf/2011.05953.pdf)
 * Unifrom: Coresponds to example 1, section (4.1) in [page 42](https://arxiv.org/pdf/2011.08441.pdf).
@@ -9,8 +9,12 @@ Visualized examples from [Dupuis and Mao's](https://arxiv.org/abs/2006.06625) an
 
 # Mass Redistribution/Transport
 ## Dirac Masses
+Here we consider a simple example involving Dirac masses where the (f, Γ)-divergence can be explicitly computed
+using [Theorem 3.3](https://arxiv.org/pdf/2011.05953.pdf). This example further illustrates the two-stage mass-redistribution/mass-transport interpretation of
+the infimal convolution formula and demonstrates how the location and distribution of probability mass impacts
+the result.
 
-|Case 1                         |  Case 2                                   |
+|Case 1                       |  Case 2                                   |
 |:-----------------------------:|:-----------------------------------------:|
 |![Alt-txt](gif/dirac/dirac_case1.gif)|![Alt-txt](gif/dirac/dirac_case2.gif)|
 
