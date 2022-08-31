@@ -1,4 +1,4 @@
-Under Construction
+Under Construction.
 
 # (ƒ , $\Gamma$)-Divergence
 Visualized examples from [Dupui's and Mao's](https://arxiv.org/pdf/2011.08441.pdf) and [Birrell's](https://arxiv.org/pdf/2011.05953.pdf) papers.
