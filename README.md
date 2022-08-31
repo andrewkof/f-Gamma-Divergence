@@ -56,6 +56,11 @@ To reproduce the achieved results run the file of your choice with the correspon
 
 `Note`: Default values corresponds to Case 2.
 
+## Uniform
+| Argument   | Default Value  | Info                                            |Choices
+|:----------:|:--------------:|-------------------------------------------------|:---------:|
+| `--c`      | 0.5            | [float] Parameter of distribution P             | c > 0
+
 # References
 ```
 @inproceedings{Dupuis2020,
