@@ -7,7 +7,7 @@ Visualized examples from [Dupui's and Mao's](https://arxiv.org/pdf/2011.08441.pd
 * Gaussian: Theorem 6.8, in [page 114](https://arxiv.org/pdf/2011.08441.pdf)
 * Unifrom: Example 1, section (4.1) in [page 42](https://arxiv.org/pdf/2011.08441.pdf).
 
-![Alt-txt](f_gamma_cases.png)
+![Alt-txt](cases.png)
 
 # Mass Redistribution/Transport
 ## Dirac Masses
