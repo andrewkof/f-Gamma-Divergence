@@ -40,7 +40,7 @@ To reproduce the achieved results run the file of your choice with the correspon
 
 ## Dirac Masses (Case 2)
 | Argument   | Default Value  | Info                                            |Choices                                |
-|:----------:|:--------------:|:-----------------------------------------------:|:--------------------------------------|
+|:----------:|:--------------:|:-----------------------------------------------:|:--------------------------------------:|
 | `--h`      | 0.1            | [float] Position of $\eta^*(x_2)$ from 0.5      | -0.5 < h < 0.5                        |
 
 `Note`: [Dirac case 1](scripts/Dirac_case1.py) has no arguments.
