@@ -43,13 +43,15 @@ To reproduce the achieved results run the file of your choice with the correspon
 |:----------:|:--------------:|:-----------------------------------------------:|:--------------------------------------|
 | `--h`      | 0.1            | [float] Position of $\eta^*(x_2)$ from 0.5      | -0.5 < h < 0.5                        |
 
+i.e python3 [`Dirac_case2.py`](Dirac_case2.py) --h=0.2
+
 ## Gaussian
 | Argument   | Default Value  | Info                                            |Choices
 |:----------:|:--------------:|-------------------------------------------------|:---------:|
-| `--m1`     | 1.0            | [float] Mean of distribution P                  | -  |
-| `--sd1`    | 0.5            | [float] Standard deviation of distribution P    | -       |
-| `--m2`     | 3.0            | [float] Mean of distribution Q                  | -|
-| `--sd2`    | 1.0            | [float] Standard deviation of distribution Q    | -|
+| `--m1`     | 1.0            | [float] Mean of distribution P                  | -  
+| `--sd1`    | 0.5            | [float] Standard deviation of distribution P    | -  
+| `--m2`     | 3.0            | [float] Mean of distribution Q                  | -
+| `--sd2`    | 1.0            | [float] Standard deviation of distribution Q    | -
 
 `Note`: Default values corresponds to Case 2
 
