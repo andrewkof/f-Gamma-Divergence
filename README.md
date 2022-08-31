@@ -15,9 +15,9 @@ using [Theorem 3.3](https://arxiv.org/pdf/2011.05953.pdf). This example further 
 the infimal convolution formula and demonstrates how the location and distribution of probability mass impacts
 the result.
 
-|Case 1                       |  Case 2                                   |
-|:-----------------------------:|:-----------------------------------------:|
-|![Alt-txt](gif/dirac/dirac_case1.gif)|![Alt-txt](gif/dirac/dirac_case2.gif)|
+|Case 1                               |  Case 2                                   |
+|:-----------------------------------:|:-----------------------------------------:|
+|![Alt-txt](gif/dirac/dirac_case1.gif)|![Alt-txt](gif/dirac/dirac_case2.gif)      |
 
 
 ## Gaussian
@@ -34,6 +34,24 @@ the result.
 <img src="uniform.png" width="600"/>
 
 ![Alt-txt](gif/uniform.gif)
+
+# Run Examples
+To reproduce the achieved results run the file of your choice with the corresponding arguments. The output is a gif visualizing the Mass Redistribution and Transport respectivly to the chosen case (Dirac, Gaussian or Uniform).
+
+## Dirac Case 2
+| Argument   | Default Value  | Info                                            |Choices                                |
+|:----------:|:--------------:|:-----------------------------------------------:|:--------------------------------------|
+| `--h`      | 0.1            | [float] Position of $\eta^*(x_2)$ from 0.5      | -0.5 < h < 0.5                        |
+
+## Gaussian
+| Argument   | Default Value  | Info                                            |Choices
+|:----------:|:--------------:|-------------------------------------------------|:---------:|
+| `--m1`     | 1.0            | [float] Mean of distribution P                  | -  |
+| `--sd1`    | 0.5            | [float] Standard deviation of distribution P    | -       |
+| `--m2`     | 3.0            | [float] Mean of distribution Q                  | -|
+| `--sd2`    | 1.0            | [float] Standard deviation of distribution Q    | -|
+
+`Note`: Default values corresponds to Case 2
 
 # References
 ```
