@@ -22,7 +22,7 @@ the result.
 
 ## Gaussian
 
-<img src="gaussian_cases_formula.png" width="350"/>
+<img src="gaussians_cases_formula.png" width="350"/>
 
 
 |1) P ~ N(1, 0.5),  Q ~ N(3, 0.5)            |2) P ~ N(1, 0.5),  Q ~ N(3, 1)              |3) P ~ N(1, 1),  Q ~ N(3, 0.5)                |
