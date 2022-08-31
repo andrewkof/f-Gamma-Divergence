@@ -22,7 +22,7 @@ the result.
 
 ## Gaussian
 
-<img src="gaussian_cases_formula.png" width="600"/>
+<img src="gaussian_cases_formula.png" width="350"/>
 
 
 |1) P ~ N(1, 0.5),  Q ~ N(3, 0.5)            |2) P ~ N(1, 0.5),  Q ~ N(3, 1)              |3) P ~ N(1, 1),  Q ~ N(3, 0.5)                |
@@ -31,9 +31,10 @@ the result.
 
 
 ## Uniform
-<img src="uniform.png" width="600"/>
 
-![Alt-txt](gif/uniform.gif)
+
+
+<img src="uniform.png" width="350"/> <img src="gif/uniform.gif" width="380" height="320"/>
 
 # Run Examples
 To reproduce the achieved results run the file of your choice with the corresponding arguments. The output is a gif visualizing the Mass Redistribution and Transport respectivly to the chosen case (Dirac, Gaussian or Uniform).
