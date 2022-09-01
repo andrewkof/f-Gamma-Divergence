@@ -8,16 +8,14 @@ python3 Dirac_case1.py
 Visit "Run examples" section of README for more info about the default values and choices.
 
 """
+import numpy as np
 import matplotlib.pyplot as plt                                                                                 # Import required libraries
 import matplotlib.animation as animation
-import numpy as np
-
 
 arrow1_goes_down = np.linspace(1/3,1/2,20)[::-1]                                                                # 20 equidistant frames for each arrow
 arrow2_goes_up = np.linspace(1/2,2/3,20)
 arrow3_goes_up = np.linspace(0, 1/3, 20)
 arrow2_goes_down = np.linspace(1/3, 2/3, 20)[::-1]
-
 
 fig, ax = plt.subplots()
 
@@ -41,7 +39,7 @@ plt.plot([-1, 2],[1/3,1/3],'--', linewidth=1,color = 'black')                   
 plt.plot([-1, 2],[1/2,1/2],'--', linewidth=1,color = 'black')
 plt.plot([-1, 2],[2/3,2/3],'--', linewidth=1,color = 'black')
 
-plt.xticks([0,1/2])                                                                                           # Set x,y ticks
+plt.xticks([0,1/2])                                                                                             # Set x,y ticks
 ax.set_xticklabels(['$x_1$','$x_2$'])
 plt.yticks([0,1/3,1/2,2/3,1])
 ax.set_yticklabels([0,'1/3','1/2','2/3', 1])
@@ -73,7 +71,6 @@ def animate(i):
 
         return patch1,patch2,patch3
 
-anim = animation.FuncAnimation(fig, animate, frames = 40,interval = 100)
-anim.save('/Users/andrew_kwf/Desktop/'+'dirac_case1.gif', writer= animation.PillowWriter(fps=60))# Create animation
-plt.show()
-# HTML(anim.to_html5_video())
+anim = animation.FuncAnimation(fig, animate, frames = 40,interval = 100)                                       # Create animation                 
+anim.save('dirac_case1.gif', writer= animation.PillowWriter(fps=60))              # Save animation on current directory
+#plt.show()
