@@ -1,3 +1,13 @@
+"""
+
+@author: andrewkof
+
+Run example:
+python3 Gaussian.py --m1=1.5 --sd1=0.8 --m2=3.0 --sd2=1.0
+
+Visit "Run examples" section of README for more info about the default values and choices.
+
+"""
 import numpy as np                                                                                            # Import required libraries
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
