@@ -1,3 +1,13 @@
+"""
+
+@author: andrewkof
+
+Run example:
+python3 Dirac_case1.py
+
+Visit "Run examples" section of README for more info about the default values and choices.
+
+"""
 import matplotlib.pyplot as plt                                                                                 # Import required libraries
 import matplotlib.animation as animation
 import numpy as np
