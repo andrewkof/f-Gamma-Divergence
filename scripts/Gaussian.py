@@ -8,14 +8,11 @@ python3 Gaussian.py --m1=1.5 --sd1=0.8 --m2=3.0 --sd2=1.0
 Visit "Run examples" section of README for more info about the default values and choices.
 
 """
+import argparse
 import numpy as np                                                                                            # Import required libraries
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-import argparse
 
-# -------------------
-# input arguments
-# -------------------
 parser = argparse.ArgumentParser(description='Gaussian')
 parser.add_argument('--m1', default=1.0, type=float, help='[float] Mean of distribution P')
 parser.add_argument('--sd1', default=0.5, type=float, help='[float] Standard deviation of distribution P')
@@ -28,12 +25,12 @@ sd1 = args.sd1
 mean2 = args.m2
 sd2 = args.sd2
 
-def normal_dist(x , mean , sd):                                                                    # Define Normal Distribution Function
+def normal_dist(x , mean , sd):                                                                                # Define Normal Distribution Function
     prob_density = 1/(np.sqrt( 2*(np.pi)* sd**2)) * np.exp(-0.5*((x-mean)/sd)**2)
     return prob_density
 
 
-def check_case(sd1,sd2):                                                                          # Recognise the case
+def check_case(sd1,sd2):                                                                                       # Recognise the case
     k = 1/sd1**2 - 1/sd2**2
     if -1 <= k <= 1:
         return sd1, 'case_1'
@@ -57,13 +54,15 @@ ax.set_ylabel('y', fontsize = 12, rotation='horizontal')
 
 ax.yaxis.set_label_coords(-0.1,0.9)                                                                           # Position of x,y labels in frame
 ax.xaxis.set_label_coords(0.9, -0.025)
+
 ax.plot((1), (0), ls="", marker=">", ms=10, color="k",transform=ax.get_yaxis_transform(), clip_on=False)      # Create 2 arrows on x,y axis
 ax.plot((mean1-5), (1), ls="", marker="^", ms=10, color="k",transform=ax.get_xaxis_transform(), clip_on=False)
 
-plt.xlim(mean1-5,mean2+5)                                                                                               # Limit frame (x,y) = [-5,11]x[0,1]
+plt.xlim(mean1-5,mean2+5)                                                                                     # Limit frame
 plt.ylim(0, max(1/(np.sqrt(2*np.pi)*sd1), 1/(np.sqrt(2*np.pi)*sd2)))
 
 Frames = np.linspace(0,1,50)                                                                                  # 50 equidistant frames on [0,1]
+
 def animate(i):
     if i < 50 :
         plt.title('P => $\eta$*',fontsize=12)
@@ -78,8 +77,6 @@ def animate(i):
     return line,
 
 line, = ax.plot([], [], lw=2, color='red')
-anim = animation.FuncAnimation(fig, animate, frames=100, interval=100)
-
-anim.save('/Users/andrew_kwf/Desktop/'+'Gaussian_' + case + '.gif', writer=animation.PillowWriter(fps=60))   # Create animation
-plt.show()
-# HTML(anim.to_html5_video())
+anim = animation.FuncAnimation(fig, animate, frames=100, interval=100)                                        # Create animation
+anim.save('Gaussian_' + case + '.gif', writer=animation.PillowWriter(fps=60))                                 # Save animation on current directory
+#plt.show()
