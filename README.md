@@ -61,7 +61,9 @@ To reproduce the achieved results run the file of your choice with the correspon
 ## Uniform
 | Argument   | Default Value  | Info                                            |Choices
 |:----------:|:--------------:|-------------------------------------------------|:---------:|
-| `--c`      | 0.5            | [float] Parameter of distribution P             | c > 0
+| `--c`      | 0.5            | [float] Parameter of distribution P             | 0 < c < e-2
+
+`Note`: c value must be positive and less than e-2, thus 1-b ≥ 0.
 
 # References
 ```
