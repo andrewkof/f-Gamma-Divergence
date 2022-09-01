@@ -33,8 +33,9 @@ the result.
 
 
 ## Uniform
-
-
+b solves: exp(1 − b) − (1 − b) = 1 + c <br />
+When c = 0, b = 1 solves the equation. When c > 0 is small, 1 − b is also close to 0. Moreover, 1 − b can be written as an analytic function of √c
+around 0 as 1-b = √2√c - c/3 + O(c^(3/2)). <br />
 
 <img src="uniform.png" width="350"/> <img src="gif/uniform.gif" width="380" height="320"/>
 
