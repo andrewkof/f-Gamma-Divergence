@@ -1,4 +1,4 @@
-Under Construction
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 # (ƒ , $\Gamma$)-Divergence
 Visualized examples from [Dupui's and Mao's](https://arxiv.org/pdf/2011.08441.pdf) and [Birrell's](https://arxiv.org/pdf/2011.05953.pdf) papers.
@@ -68,22 +68,32 @@ To reproduce the achieved results run the file of your choice with the correspon
 
 # References
 ```
-@inproceedings{Dupuis2020,
-  author    = {"Paul Dupuis, Yixiang Mao"},
-  title     = {"Formulation and properties of a divergence used to compare probability measures without absolute continuity and its application to uncertainty quantification"},
-  journal   = {arXiv:2011.08441},
-  year      = {2020},
-  publisher = {"-?-"}
+@article{dupuis2022formulation,
+  title={Formulation and properties of a divergence used to compare probability measures without absolute continuity},
+  author={Dupuis, Paul and Mao, Yixiang},
+  journal={ESAIM: Control, Optimisation and Calculus of Variations},
+  volume={28},
+  pages={10},
+  year={2022},
+  publisher={EDP Sciences}
 }
 ```
 
 
 ```
-@inproceedings{Birrell2022,
-  author    = {"Jeremiah Birrell, Paul Dupuis, Markos A. Katsoulakis, Yannis Pantazis, Luc Rey-Bellet"},
-  title     = {"(f, Γ)-DIVERGENCES: INTERPOLATING BETWEEN, f -DIVERGENCES AND INTEGRAL PROBABILITY METRICS"},
-  journal   = {arXiv preprint arXiv:2011.05953},
-  year      = {2022},
-  publisher = {"Journal of Machine Learning Research"}
+@article{JMLR:v23:21-0100,
+  author  = {Jeremiah Birrell and Paul Dupuis and Markos A. Katsoulakis and Yannis Pantazis and Luc Rey-Bellet},
+  title   = {(f,Gamma)-Divergences: Interpolating between f-Divergences and Integral Probability Metrics},
+  journal = {Journal of Machine Learning Research},
+  year    = {2022},
+  volume  = {23},
+  number  = {39},
+  pages   = {1--70},
+  url     = {http://jmlr.org/papers/v23/21-0100.html}
 }
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
